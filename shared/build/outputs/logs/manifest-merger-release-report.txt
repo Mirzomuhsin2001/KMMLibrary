@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml:2:13-83
+INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml:2:13-83
+	package
+		INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml
+	xmlns:android
+		ADDED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml:2:23-81
+uses-sdk
+INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml reason: use-sdk injection requested
+INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml
+INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml
+	android:minSdkVersion
+		INJECTED from /Users/mirzomuhsin/AndroidStudioProjects/SharedApp/shared/build/intermediates/tmp/ProcessLibraryManifest/release/tempAndroidManifest13740474745151884346.xml

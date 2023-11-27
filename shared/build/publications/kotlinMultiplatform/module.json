@@ -1,0 +1,307 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.muhsin.mysharedlib",
+    "module": "shared",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-metadata-1.0.3.jar",
+          "url": "shared-1.0.3.jar",
+          "size": 3778,
+          "sha512": "1bd75928ff6221f93dea85131c3737028da719c6fec1f19aaa898867350b8e44bc767a74d5c46aa1426e551bfbea53a565af7c7de6e06e23bdda84422476c4d2",
+          "sha256": "ab0a6091a5592f61f0123b558340ab6f49704bbba1a3cfd92f9f9827447ce6e6",
+          "sha1": "9437210e5c894899c1d2bc1360e0a57e5e4508cb",
+          "md5": "299a68fe6379bf26c511fb35c061c11e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "shared-kotlin-1.0.3-sources.jar",
+          "url": "shared-1.0.3-sources.jar",
+          "size": 2069,
+          "sha512": "57d134284b424e493ff9b04be6a87ad364a195483785931d8e3f249e1391ba15402b1ad72951cc6f96af3a8cbe5162dcf3ceacb6e51f13985836998665de6f66",
+          "sha256": "033d2783758e16106c056323205147a704c2d2a35d95be2b5fa28f65f3eceba5",
+          "sha1": "03a4561d22c8d9c04c29e1fe478685bd04db3463",
+          "md5": "f35fbd71280858290e389dd1d312c290"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android-debug/1.0.3/shared-android-debug-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android-debug",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android-debug/1.0.3/shared-android-debug-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android-debug",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android-debug/1.0.3/shared-android-debug-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android-debug",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.3/shared-android-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.3/shared-android-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../shared-android/1.0.3/shared-android-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-android",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.3/shared-iosarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.3/shared-iosarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosarm64/1.0.3/shared-iosarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.3/shared-iossimulatorarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.3/shared-iossimulatorarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iossimulatorarm64/1.0.3/shared-iossimulatorarm64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iossimulatorarm64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.3/shared-iosx64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosx64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.3/shared-iosx64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosx64",
+        "version": "1.0.3"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../shared-iosx64/1.0.3/shared-iosx64-1.0.3.module",
+        "group": "com.muhsin.mysharedlib",
+        "module": "shared-iosx64",
+        "version": "1.0.3"
+      }
+    }
+  ]
+}
