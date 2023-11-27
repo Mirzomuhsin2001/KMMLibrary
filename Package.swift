@@ -12,6 +12,7 @@ let package = Package(
             targets: ["KMMLibrary"]),
     ],
     dependencies: [
+        .package(url: "hhttps://github.com/Mirzomuhsin2001/KMMLibrary.git", from: "0.1.1")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
